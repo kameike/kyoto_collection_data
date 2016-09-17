@@ -21,15 +21,48 @@
 		<link rel="shortcut icon" href="">
 		-->
 
+
+		<script>
+
+		var a; 
+
+		document.addEventListener("DOMContentLoaded", function(event) {
+			var x = document.getElementsByTagName("a");
+			console.log(x);
+
+			for( var i = 0; i < x.length; i ++ ){
+				var elem = x.item( i );
+				elem.innerHTML = elem.attributes[0].value;
+			}
+		});
+		</script>
+
+
 	</head>
 	<body>
-		<div>
-			<a href="spot.json" > spot </a>
-		</div>
 
-		<div>
-			<a href="mission.json" > mission </a>
-		</div>
+		<div> <h1> data </h1> </div>
+		<div> <a href="spot.json" ></a> </div>
+		<div> <a href="mission.json" ></a> </div>
+
+		<div> <h1> images </h1> </div>
+		<div> <a href="icons/icon_1.pdf" ></a> </div>
+		<div> <a href="icons/icon_2.pdf" ></a> </div>
+		<div> <a href="icons/icon_3.pdf" ></a> </div>
+		<div> <a href="icons/icon_4.pdf" ></a> </div>
+		<div> <a href="icons/icon_5.pdf" ></a> </div>
+		<div> <a href="icons/icon_6.pdf" ></a> </div>
+		<div> <a href="icons/icon_7.pdf" ></a> </div>
+		<div> <a href="icons/icon_8.pdf" ></a> </div>
+		<div> <a href="icons/icon_9.pdf" ></a> </div>
+		<div> <a href="icons/icon_10.pdf" ></a> </div>
+		<div> <a href="icons/icon_11.pdf" ></a> </div>
+		<div> <a href="icons/icon_12.pdf" ></a> </div>
+		<div> <a href="icons/icon_13.pdf" ></a> </div>
+		<div> <a href="icons/icon_14.pdf" ></a> </div>
+		<div> <a href="icons/icon_15.pdf" ></a> </div>
+		<div> <a href="icons/icon_16.pdf" ></a> </div>
 	</body>
+
 </html>
 
